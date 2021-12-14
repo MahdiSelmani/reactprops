@@ -33,6 +33,7 @@ Profile.propTypes = {
     fullName: PropTypes.string,
     Profession: PropTypes.string,
     bio: PropTypes.string,
+    handleName : PropTypes.func,
     children: PropTypes.node,
 }
 Profile.defaultProps = {
